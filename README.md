@@ -25,7 +25,8 @@ Potete voi stessi migliorare il contenuto di questo repository: per sapere come 
 In questa sezione vengono date le linee guida generali per sviluppare una visualizzazione come quella disponibile all'indirizzo: http://giuseppefutia.github.io/homer/.
 
 ### HACK4MED, una sfida per accrescere il valore dei dati
-[HACK4MED](http://www.hackunito.it/hack4med/) è la 24 ore non stop di hackathon del progetto [HOMER](http://homerproject.eu/) (*Harmonising Open Data in the Mediterranean Through better access and reuse of public sector information: results and beyond*) che si è svolta il 17/18 Maggio 2014 presso il Campus Luigi Einaudi dell'Università di Torino. 700 dataset liberi (open data) sono stati a disposizione di sviluppatori e aziende per sviluppare un progetto tecnologico che faccia uso di almeno uno di questi set di dati.
+[HACK4MED](http://www.hackunito.it/hack4med/) è la 24 ore non stop di hackathon del progetto
+<img src="https://raw.githubusercontent.com/giuseppefutia/itis-pininfarina/master/images/hack4med.png" align="right" width=150>[HOMER](http://homerproject.eu/) (*Harmonising Open Data in the Mediterranean Through better access and reuse of public sector information: results and beyond*) che si è svolta il 17/18 Maggio 2014 presso il Campus Luigi Einaudi dell'Università di Torino. 700 dataset liberi (open data) sono stati a disposizione di sviluppatori e aziende per sviluppare un progetto tecnologico che faccia uso di almeno uno di questi set di dati. 
 
 ## Contatti
 * Mail: giuseppe.futia[at]polito[punto]it

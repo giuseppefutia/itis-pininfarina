@@ -9,7 +9,7 @@ Potete voi stessi migliorare il contenuto di questo repository: per sapere come 
 ## Indice dei contenuti
 * [Cosa fare con i dati della PA](https://github.com/giuseppefutia/itis-pininfarina#cosa-fare-con-i-dati-della-pa)
   * [HACK4MED, una sfida per accrescere il valore dei dati](https://github.com/giuseppefutia/itis-pininfarina/#hack4med-una-sfida-per-accrescere-il-valore-dei-dati)
-  * I dataset che abbiamo scelto
+  * I dataset
   * D3.js, una libreria per la visualizzazione di dati sul Web
   * Processare i dati
     * Gestire i dati geografici (Shapefile) 
@@ -26,7 +26,30 @@ In questa sezione vengono date le linee guida generali per sviluppare una visual
 
 ### HACK4MED, una sfida per accrescere il valore dei dati
 [HACK4MED](http://www.hackunito.it/hack4med/) è la 24 ore non stop di hackathon del progetto
-<img src="https://raw.githubusercontent.com/giuseppefutia/itis-pininfarina/master/images/hack4med.png" align="right" width=150>[HOMER](http://homerproject.eu/) (*Harmonising Open Data in the Mediterranean Through better access and reuse of public sector information: results and beyond*) che si è svolta il 17/18 Maggio 2014 presso il Campus Luigi Einaudi dell'Università di Torino. 700 dataset liberi (open data) sono stati a disposizione di sviluppatori e aziende per sviluppare un progetto tecnologico che faccia uso di almeno uno di questi set di dati. 
+<img src="https://raw.githubusercontent.com/giuseppefutia/itis-pininfarina/master/images/hack4med.png" align="right" width=150>[HOMER](http://homerproject.eu/) (*Harmonising Open Data in the Mediterranean Through better access and reuse of public sector information: results and beyond*) che si è svolta il 17/18 Maggio 2014 presso il Campus Luigi Einaudi dell'Università di Torino. 700 dataset liberi (open data) sono stati a disposizione di sviluppatori e aziende per sviluppare un progetto tecnologico che faccia uso di almeno uno di questi set di dati.
+
+#### OpenEnergyMap
+Creare un web service che permetta di identificare in Piemonte (a livello regionale o di città) le zone a più alta efficienza energetica (dati sulla certificazione energetica) per una pianificazione del territorio e per permettere una scelta consapevole.
+
+### I dataset
+* *Numero di Attestati di Certificazione Energetica (ACE) distinti per classe energetica e per comune* ([dati.piemonte.it](http://www.dati.piemonte.it/catalogodati/dato/100319-numero-di-attestati-di-certificazione-energetica-ace-distinti-per-classe-energetica-e-per-comune.html))
+
+* *Confini amministrativi, dei sistemi locali del lavoro e delle NUTS2 in versione generalizzata* ([istat.it](http://www.istat.it/it/archivio/24613))
+
+### D3.js, una libreria per la visualizzazione di dati sul Web
+TODO
+
+### Processare i dati
+TODO
+
+#### Gestire i dati geografici
+TODO
+
+#### Gestire i dati di Certificazione Energetica (ACE)
+TODO
+
+### Il risultato: una mappa interattiva
+TODO
 
 ## Contatti
 * Mail: giuseppe.futia[at]polito[punto]it

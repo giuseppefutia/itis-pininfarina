@@ -7,8 +7,8 @@ All'interno di questo [GitHub](https://github.com/) repository è disponibile il
 Potete voi stessi migliorare il contenuto di questo repository: per sapere come date uno sguardo al meccanismo del [*forking*](https://help.github.com/articles/fork-a-repo/) e delle [*pull request*](https://help.github.com/articles/fork-a-repo/).
 
 ## Indice dei contenuti
-* Cosa fare con i dati della PA
-  * HACK4MED, una sfida per accrescere il valore dei dati
+* [Cosa fare con i dati della PA](https://github.com/giuseppefutia/itis-pininfarina#cosa-fare-con-i-dati-della-pa)
+  * [HACK4MED, una sfida per accrescere il valore dei dati](https://github.com/giuseppefutia/itis-pininfarina/#hack4med-una-sfida-per-accrescere-il-valore-dei-dati)
   * I dataset che abbiamo scelto
   * D3.js, una libreria per la visualizzazione di dati sul Web
   * Processare i dati
@@ -25,7 +25,7 @@ Potete voi stessi migliorare il contenuto di questo repository: per sapere come 
 In questa sezione vengono date le linee guida generali per sviluppare una visualizzazione come quella disponibile all'indirizzo: http://giuseppefutia.github.io/homer/.
 
 ### HACK4MED, una sfida per accrescere il valore dei dati
-[HACK4MED](http://www.hackunito.it/hack4med/) è la 24 ore non stop di hackathon del progetto [HOMER](http://homerproject.eu/) (Harmonising Open Data in the Mediterranean Through better access and reuse of public sector information: results and beyond) che si è svolta il 17/18 Maggio 2014 presso il Campus Luigi Einaudi dell'Università di Torino. 700 dataset liberi (open data) sono stati a disposizione di sviluppatori e aziende per sviluppare un progetto tecnologico che faccia uso di almeno uno di questi set di dati.
+[HACK4MED](http://www.hackunito.it/hack4med/) è la 24 ore non stop di hackathon del progetto [HOMER](http://homerproject.eu/) (*Harmonising Open Data in the Mediterranean Through better access and reuse of public sector information: results and beyond*) che si è svolta il 17/18 Maggio 2014 presso il Campus Luigi Einaudi dell'Università di Torino. 700 dataset liberi (open data) sono stati a disposizione di sviluppatori e aziende per sviluppare un progetto tecnologico che faccia uso di almeno uno di questi set di dati.
 
 ## Contatti
 * Mail: giuseppe.futia[at]polito[punto]it

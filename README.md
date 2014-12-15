@@ -15,7 +15,7 @@ Potete voi stessi migliorare il contenuto di questo repository: per sapere come 
     * Gestire i dati geografici (Shapefile) 
     * Gestire i dati di Certificazione Energetica (ACE)
   * Il risultato: una mappa interattiva
-* Cosa fare con i dati pubblicati dagli utenti
+* Cosa fare con i contenuti pubblicati dagli utenti
   * Wikipedia, l'enciclopedia libera 
   * DBpedia, un database basato su Wikipedia
   * Linked Data Cloud
@@ -44,11 +44,26 @@ TODO
 
 #### Gestire i dati geografici
 TODO
-
+ 
 #### Gestire i dati di Certificazione Energetica (ACE)
 TODO
 
 ### Il risultato: una mappa interattiva
+TODO
+
+## Cosa fare con i contenuti pubblicati dagli utenti
+TODO
+
+### Wikipedia, l'enciclopedia libera 
+TODO
+
+### DBpedia, un database basato su Wikipedia
+TODO
+
+### Linked Data Cloud
+TODO
+
+### TellMeFirst, a knowledge discovery application
 TODO
 
 ## Contatti

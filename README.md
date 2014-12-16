@@ -10,16 +10,11 @@ Potete voi stessi migliorare il contenuto di questo repository: per sapere come 
 * [Cosa fare con i dati della PA](https://github.com/giuseppefutia/itis-pininfarina#cosa-fare-con-i-dati-della-pa)
   * [HACK4MED, una sfida per accrescere il valore dei dati](https://github.com/giuseppefutia/itis-pininfarina/#hack4med-una-sfida-per-accrescere-il-valore-dei-dati)
   * I dataset
-  * d3.js, una libreria per la visualizzazione di dati sul Web
+  * D3.js, una libreria per la visualizzazione di dati sul Web
   * Processare i dati
     * Gestire i dati geografici (Shapefile) 
     * Gestire i dati di Certificazione Energetica (ACE)
   * Il risultato: una mappa interattiva
-* Cosa fare con i contenuti pubblicati dagli utenti
-  * Wikipedia, l'enciclopedia libera 
-  * DBpedia, un database basato su Wikipedia
-  * Linked Data Cloud
-  * TellMeFirst, a knowledge discovery application
  
 ## Cosa fare con i dati della PA
 In questa sezione vengono date le linee guida generali per sviluppare una visualizzazione come quella disponibile all'indirizzo: http://giuseppefutia.github.io/homer/.
@@ -29,18 +24,18 @@ In questa sezione vengono date le linee guida generali per sviluppare una visual
 <img src="https://raw.githubusercontent.com/giuseppefutia/itis-pininfarina/master/images/hack4med.png" align="right" width=150>[HOMER](http://homerproject.eu/) (*Harmonising Open Data in the Mediterranean Through better access and reuse of public sector information: results and beyond*) che si è svolta il 17/18 Maggio 2014 presso il Campus Luigi Einaudi dell'Università di Torino. 700 dataset liberi (open data) sono stati a disposizione di sviluppatori e aziende per sviluppare un progetto tecnologico che faccia uso di almeno uno di questi set di dati.
 
 #### OpenEnergyMap
-Creare un web service che permetta di identificare in Piemonte (a livello regionale o di città) le zone a più alta efficienza energetica (dati sulla certificazione energetica) per una pianificazione del territorio e per permettere una scelta consapevole.
+Creare una visualizzazione che permetta di identificare in Piemonte (a livello regionale o di città) le zone a più alta efficienza energetica (dati sulla certificazione energetica) per una pianificazione del territorio e per permettere una scelta consapevole.
 
 ### I dataset
 * *Numero di Attestati di Certificazione Energetica (ACE) distinti per classe energetica e per comune* ([dati.piemonte.it](http://www.dati.piemonte.it/catalogodati/dato/100319-numero-di-attestati-di-certificazione-energetica-ace-distinti-per-classe-energetica-e-per-comune.html))
 
 * *Confini amministrativi, dei sistemi locali del lavoro e delle NUTS2 in versione generalizzata* ([istat.it](http://www.istat.it/it/archivio/24613))
 
-### d3.js, una libreria per la visualizzazione di dati sul Web
-TODO
+### D3.js, una libreria per la visualizzazione di dati sul Web
+[D3.js](http://d3js.org/) è una libreria JavaScript per manipolare documenti basati sui dati. D3 consente di "portare i dati alla vita" utilizzando tecnologie come HTML, SVG e CSS. Con D3 è possibile sfruttare tutte le funzionalità dei browser moderni, utilizzando un approccio basato sui dati per la manipolazione del [DOM](http://it.wikipedia.org/wiki/Document_Object_Model).
 
 ### Processare i dati
-TODO
+In questa sezione vengono riportate le istruzioni necessarie per manipolare i dati geografici, elaborare i dati relativi alla certificazione energetica e costruire infine un **mapping** tra i due dataset che consenta la creazione di una mappa interattiva.
 
 #### Gestire i dati geografici
 Per poter rappresentare i confini geografici della province e dei comuni del Piemonte utilizzando la libreria d3.js è stato necessario scaricare i dati dei confini amministrativi dal sito dell'ISTAT e convertire gli shapefile in formato geojson (LINK ad un esempio).
@@ -84,21 +79,6 @@ Tale pulizia dà come risultato i seguenti file che rappresentno i comuni e le p
 TODO
 
 ### Il risultato: una mappa interattiva
-TODO
-
-## Cosa fare con i contenuti pubblicati dagli utenti
-TODO
-
-### Wikipedia, l'enciclopedia libera 
-TODO
-
-### DBpedia, un database basato su Wikipedia
-TODO
-
-### Linked Data Cloud
-TODO
-
-### TellMeFirst, a knowledge discovery application
 TODO
 
 ## Contatti

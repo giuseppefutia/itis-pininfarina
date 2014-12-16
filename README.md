@@ -10,7 +10,7 @@ Potete voi stessi migliorare il contenuto di questo repository: per sapere come 
 * [Cosa fare con i dati della PA](https://github.com/giuseppefutia/itis-pininfarina#cosa-fare-con-i-dati-della-pa)
   * [HACK4MED, una sfida per accrescere il valore dei dati](https://github.com/giuseppefutia/itis-pininfarina/#hack4med-una-sfida-per-accrescere-il-valore-dei-dati)
   * I dataset
-  * D3.js, una libreria per la visualizzazione di dati sul Web
+  * d3.js, una libreria per la visualizzazione di dati sul Web
   * Processare i dati
     * Gestire i dati geografici (Shapefile) 
     * Gestire i dati di Certificazione Energetica (ACE)
@@ -36,14 +36,49 @@ Creare un web service che permetta di identificare in Piemonte (a livello region
 
 * *Confini amministrativi, dei sistemi locali del lavoro e delle NUTS2 in versione generalizzata* ([istat.it](http://www.istat.it/it/archivio/24613))
 
-### D3.js, una libreria per la visualizzazione di dati sul Web
+### d3.js, una libreria per la visualizzazione di dati sul Web
 TODO
 
 ### Processare i dati
 TODO
 
 #### Gestire i dati geografici
-TODO
+Per poter rappresentare i confini geografici della province e dei comuni del Piemonte utilizzando la libreria d3.js è stato necessario scaricare i dati dei confini amministrativi dal sito dell'ISTAT e convertire gli shapefile in formato geojson (LINK ad un esempio).
+
+Per compiere tale operazione si può utilizzare un tool che si chiama **ogr2ogr** presente all'interno della (LINK) Geospatial Data Abstraction Library o GDAL, libreria Open Source per leggere e scrivere numerosi formati di dati geografici, rilasciata dalla Open Source Geospatial Foundation sotto la licenza (LINK) X/MIT.
+
+GDAL presenta un modello di dati astratto comune attraverso il quale le applicazioni possono accedere a tutti i formati di dati geografici raster supportati. Insieme alla libreria vera e propria GDAL è accompagnata da numerose applicazioni a linee di comando che permettono di eseguire traduzioni di formato e semplici processamenti dei dati geografici (descrizione tratta da Wikipedia).
+
+Per prima cosa occorre scaricare gli shapefile dal sito dell'ISTAT delle province e dei comuni italiani al 2011:
+* Province: http://www.istat.it/it/files/2011/04/prov2011_g.zip
+* Comuni: http://www.istat.it/it/files/2011/04/com2011_g.zip
+
+Per la visualizzazione dei file in formato shapefile si possono utilizzare gratuitamente i seguenti programmi open source:
+* Quantum GIS: http://www.qgis.org
+* GVSIG: http://www.gvsig.com
+
+Successivamente occorre installare il tool ogr2ogr. Su Ubuntu si possono utilizzare i seguenti comandi:
+
+    #add ppa lauchpad for ubuntugis
+    sudo add-apt-repository ppa:ubuntugis/ppa
+    sudo apt-get update
+    sudo apt-get install gdal-bin
+
+Una volta scaricati i dati e installato ogr2ogr è possibile utilizzare lo script definito da @riccardoscalco per trasformare gli shapefile in geojson e successivamente in topojson:
+
+    ogr2ogr -f GeoJSON -s_srs prov2011_g.prj -t_srs EPSG:4326 sub.json prov2011_g.shp
+    topojson -p nome_pro=NOME_PRO -p nome_pro --id-property NOME_PRO -s 0.00000001 -o itx.json sub.json
+
+(ovviamente per i comuni italiani andrà applicato lo stesso procedimento).
+
+A questo punto occorre definire un filtro per pulire i file topojson dalle province e dai comuni che non ci interessano.
+
+[DESCRIZIONE DEL PROCESSO]
+
+Tale pulizia dà come risultato i seguenti file che rappresentno i comuni e le province del Piemonte in formato topojson utilizzabile dalla libreria d3.js.
+
+* https://github.com/giuseppefutia/giuseppefutia.github.io/blob/master/homer/municipality.json
+* https://github.com/giuseppefutia/giuseppefutia.github.io/blob/master/homer/province.json
  
 #### Gestire i dati di Certificazione Energetica (ACE)
 TODO

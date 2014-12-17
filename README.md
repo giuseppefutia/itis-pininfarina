@@ -74,7 +74,7 @@ Tale pulizia dà come risultato i seguenti file che rappresentno i comuni e le p
 * https://github.com/giuseppefutia/itis-pininfarina/blob/master/data/province.json
  
 #### Gestire i dati di Certificazione Energetica (ACE)
-Per collocare su una mappa i dati sulla certificazione energetica, ci siamo basati su due dataset scaricati dati.piemonte.it:
+Per collocare su una mappa i dati sulla certificazione energetica, ci siamo basati su due dataset scaricati da dati.piemonte.it:
 * [Numero di Attestati di Certificazione Energetica (ACE) distinti per classe energetica e per comune](https://github.com/giuseppefutia/itis-pininfarina/blob/master/data/comuni-efficienza.csv)
 * [Numero di impianti termini distinti per tipologia e per comune](https://github.com/giuseppefutia/itis-pininfarina/blob/master/data/impianti-termici.csv)
 

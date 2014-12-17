@@ -48,7 +48,7 @@ Per prima cosa occorre scaricare gli shapefile dal sito dell'ISTAT delle provinc
 * Province: http://www.istat.it/it/files/2011/04/prov2011_g.zip
 * Comuni: http://www.istat.it/it/files/2011/04/com2011_g.zip
 
-Per la visualizzazione dei file in formato shapefile occorre si possono utilizzare gratuitamente i seguenti programmi open source:
+Per la visualizzazione dei file in formato shapefile si possono utilizzare gratuitamente i seguenti programmi open source:
 * Quantum GIS: http://www.qgis.org
 * GVSIG: http://www.gvsig.com
 

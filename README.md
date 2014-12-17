@@ -82,7 +82,7 @@ Il secondo dataset è stato utile in particolare per avere un mapping diretto tr
 
 Questi dati sono stati convertiti in JSON utilizzando il seguente script Python: https://github.com/giuseppefutia/itis-pininfarina/blob/master/scripts/convert.py.
 
-In questo modo siamo riusciti ad ottenere il seguente file JSON: https://github.com/giuseppefutia/itis-pininfarina/blob/master/data/result.json
+In questo modo siamo riusciti ad ottenere il seguente file JSON: https://github.com/giuseppefutia/itis-pininfarina/blob/master/data/result.json.
 
 ### Il risultato: una mappa interattiva
 * Codice sorgente: https://github.com/giuseppefutia/giuseppefutia.github.io/tree/master/homer

@@ -59,24 +59,31 @@ Successivamente occorre installare il tool ogr2ogr. Su Ubuntu si possono utilizz
     sudo apt-get update
     sudo apt-get install gdal-bin
 
-Una volta scaricati i dati e installato ogr2ogr è possibile utilizzare lo script definito da @riccardoscalco per trasformare gli shapefile in geojson e successivamente in topojson:
+Una volta scaricati i dati e installato ogr2ogr è possibile utilizzare lo script definito da @riccardoscalco per trasformare gli shapefile in GeoJSON e successivamente in TopoJSON:
 
     ogr2ogr -f GeoJSON -s_srs prov2011_g.prj -t_srs EPSG:4326 sub.json prov2011_g.shp
     topojson -p nome_pro=NOME_PRO -p nome_pro --id-property NOME_PRO -s 0.00000001 -o itx.json sub.json
 
 (ovviamente per i comuni italiani andrà applicato lo stesso procedimento).
 
-A questo punto occorre definire un filtro per pulire i file topojson dalle province e dai comuni che non ci interessano.
+A questo punto occorre definire un filtro per pulire i file TopoJSON dalle province e dai comuni che non ci interessano.
 
-[DESCRIZIONE DEL PROCESSO]
-
-Tale pulizia dà come risultato i seguenti file che rappresentno i comuni e le province del Piemonte in formato topojson utilizzabile dalla libreria d3.js.
+Tale pulizia dà come risultato i seguenti file che rappresentno i comuni e le province del Piemonte in formato TopoJSON utilizzabile dalla libreria d3.js.
 
 * https://github.com/giuseppefutia/itis-pininfarina/blob/master/data/municipality.json
 * https://github.com/giuseppefutia/itis-pininfarina/blob/master/data/province.json
  
 #### Gestire i dati di Certificazione Energetica (ACE)
-TODO
+Per collocare su una mappa i dati sulla certificazione energetica, ci siamo basati su due dataset scaricati dati.piemonte.it:
+* [Numero di Attestati di Certificazione Energetica (ACE) distinti per classe energetica e per comune](https://github.com/giuseppefutia/itis-pininfarina/blob/master/data/comuni-efficienza.csv)
+* [Numero di impianti termini distinti per tipologia e per comune](https://github.com/giuseppefutia/itis-pininfarina/blob/master/data/impianti-termici.csv)
+
+Il secondo dataset è stato utile in particolare per avere un mapping diretto tra comuni e provincie del Piemonte.
+
+Questi dati sono stati convertiti in JSON utilizzando il seguente script Python: https://github.com/giuseppefutia/itis-pininfarina/blob/master/scripts/convert.py.
+
+In questo modo siamo riusciti ad ottenere il seguente risultato:
+
 
 ### Il risultato: una mappa interattiva
 TODO

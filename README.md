@@ -2,7 +2,7 @@
 
 #### Esempi pratici di applicazioni e servizi sviluppati con i dati
 
-All'interno di questo [GitHub](https://github.com/) repository è disponibile il materiale per gli studenti dell'[Istituto Tecnico Industriale Pininfarina](http://www.itispininfarina.it/) con un esempio pratico per lo sviluppo di applicazioni basate sui dati pubblicati dalla pubblica amministrazione (PA).
+All'interno di questo [GitHub](https://github.com/) repository è disponibile il materiale per gli studenti dell'[Istituto Tecnico Industriale Pininfarina](http://www.itispininfarina.it/) con un esempio pratico per lo sviluppo di applicazioni basate sui dati messi a disposizione dalla pubblica amministrazione (PA).
 
 Potete voi stessi migliorare il contenuto di questo repository: per sapere come date uno sguardo al meccanismo del [*forking*](https://help.github.com/articles/fork-a-repo/) e delle [*pull request*](https://help.github.com/articles/fork-a-repo/).
 
